@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Tinloof</title>
+</head>
+<style>
+</style>
+
+<body>
+    <div id="myDIV" class="h-full bg-gray-900 mx-auto w-full hidden fixed transition duration-1000  font-bold text-white">
+        <div class="flex justify-end mt-8 mr-8">
+            <i class="fas fa-times text-3xl cursor-pointer" onclick="myFunction()"></i>
+        </div>
+        <div class="menu pt-10 px-10">
+            <div class="mb-14 text-4xl"><a href="#">Work</a></div>
+            <div class="mb-14 text-4xl"><a href="#">About</a></div>
+            <div class="mb-14 text-4xl"><a href="#">Blog</a></div>
+            <div class="mb-14 text-4xl"><a href="#">Contact</a></div>
+        </div>
+        <div class="social font-medium mt-10 text-2xl pt-18 px-10">
+            <h4 class="text-lg font-normal mb-8">Imprint</h4>
+            <a href="#"><i class="fab fa-github mr-8"></i></a>
+            <a href="#"><i class="fab fa-twitter mr-8"></i></a>
+            <a href="#"><i class="fab fa-instagram mr-8"></i></a>
+        </div>
+    </div>
+    <header class="flex justify-between container mx-auto p-5  lg:px-24 ">
+        <div class="justify-center items-center my-auto">
+            <h1 class="text-2xl 2xl:text-4xl">Tinloof</h1>
+        </div>
+        <div class="justify-center items-center my-auto hidden md:block">
+            <nav class=" items-center text-base justify-center text-gray-600 text-lg lg:text-2xl">
+                <a class="md:mr-16 lg:mr-18 hover:text-black" href="#">Work</a>
+                <a class="md:mr-16 lg:mr-18 hover:text-black" href="#">About</a>
+                <a class="md:mr-16 lg:mr-18 hover:text-black" href="#">Blog</a>
+            </nav>
+        </div>
+        <div class="justify-center items-center my-auto flex">
+            <button class="inline-flex items-center bg-black text-white border-0 py-2 px-4 focus:outline-none hover:bg-gray-900 rounded-lg text-base 2xl:py-4 2xl:px-8">Get in touch
+            </button>
+            <div class="md:hidden">
+                <i class="fas fa-bars text-4xl ml-4 cursor-pointer" onclick="myFunction()"></i>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <section class="hero container mx-auto p-5 lg:px-24 lg:h-screen animate1">
+        <div class="grid grid-cols-3 gap-10 my-auto 2xl:mt-20">
+            <div class=" col-span-3 lg:col-span-2 mt-20">
+                <h1 class="text-6xl md:text-8xl lg:text-8xl 2xl:text-9xl nimbusBold ">We make fast and stunning products.</h1>
+                <p class="mt-10 text-3xl text-gray-800 2xl:pr-36 ">Tinloof is a full-service agency that designs and builds web products and sites.</p>
+            </div>
+            <div class="col-span-3 lg:col-span-1 my-auto">
+                <video autoplay muted loop class="p-5 lg:p-0" class="object-cover">
+                    <source src="./asset/img/hero.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </section>
+    <!-- END HERO -->
+    <section class="featured flex bg-gradient-to-b from-gray-100 to-white animate">
+        <div class="container mx-auto p-5 lg:px-24 py-16 grid grid-cols-3">
+            <div class="col-span-3 lg:col-span-2">
+                <h4 class="md:text-2xl lg:text-3xl circularmedium mt-8">Featured Work</h4>
+                <h2 class="md:text-4xl lg:text-5xl circularmedium mt-8">Westudio</h2>
+                <p class="mt-8 text-lg mb-8">illuminem is an energy news aggregator that curates the latest headlines from media outlets like The Financial Times and Bloomberg. We designed and developed the product from the ground up.</p>
+                <a href="#" class="underline text-lg">View Case Study</a>
+            </div>
+            <div class="col-span-3">
+                <img src="./asset/img/MacBook Pro - 9.png" alt="" class="shadow-lg mt-14">
+            </div>
+        </div>
+    </section>
+    <!-- END FEATURED WORK-->
+    <section class="client container mx-auto mx-auto p-5 lg:px-24 lg:py-36 2xl:px-56 flex justify-center animate">
+        <div class="lg:w-9/12 text-center">
+            <h2 class="text-3xl lg:text-5xl circularmedium ">Client satisfaction and long-lasting relationships are our priority.</h2>
+            <p class="mt-14 text-xl lg:text-2xl text-left circularitalic leading-relaxed px-6">“It is not an exaggeration to say that tinloof saved my business. The team built my online presence from scratch, handling logo creation, branding, web design, web development, Google My Business, Google Ads and more. My practice is now growing and we're hitting records in terms of new revenue and patients per month.”</p>
+            <div class="flex justify-between px-6 pt-8 2xl:pt-14">
+                <div class="profile flex items-center text-left">
+                    <div>
+                        <img src="./asset/img/faces.jpg" alt="" class="rounded-full h-16 w-16">
+                    </div>
+                    <div class="ml-2">
+                        <h1 class=" nimbusBold">DR Abraham </h1>
+                        <h4>Owner</h4>
+                    </div>
+                </div>
+                <div class="view flex items-center lg:items-end">
+                    <a href="#" class="underline text-lg">View Case Study</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CLIENT -->
+    <div class="bg-gray-100 py-14">
+        <section class="client container mx-auto mx-auto p-5 lg:px-24 2xl:px-56 flex justify-center animate">
+            <div class="lg:w-9/12 text-center">
+                <h2 class="text-2xl lg:text-3xl circularmedium mb-14">Technologies</h2>
+                <h2 class="text-3xl lg:text-5xl circularmedium ">Client satisfaction and long-lasting relationships are our priority.</h2>
+            </div>
+        </section>
+        <section class="client container mx-auto mx-auto p-5 lg:px-24 2xl:px- flex justify-center animate">
+            <div class="lg:w-9/12 2xl:w-full grid grid-cols-4 gap-24">
+                <div class=" col-span-4 md:col-span-2 2xl:col-span-1 text-center mt-0 lg:mt-14">
+                    <h4 class="text-xl mb-8 lg:mb-14  circularmedium">Framework & Libraries</h4>
+                    <div class="flex justify-around ">
+                        <div>
+                            <img src="./asset/img/atom.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4"> Atom</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/next-js.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Next JS</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/gatsby.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Gatsby</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-4 md:col-span-2 2xl:col-span-1 text-center mt-0 lg:mt-14">
+                    <h4 class="text-xl mb-8 lg:mb-14  circularmedium">Deployment Platforms</h4>
+                    <div class="flex justify-around">
+                        <div>
+                            <img src="./asset/img/netlify.png" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Netlify</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/vercel.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Vercel</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/aws.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">AWS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-4 md:col-span-2 2xl:col-span-1 text-center mt-0 2xl:mt-14">
+                    <h4 class="text-xl mb-8 lg:mb-14  circularmedium">Design & Collaboration</h4>
+                    <div class="flex justify-around">
+                        <div>
+                            <img src="./asset/img/figma.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Figma</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/notion.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Notion</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-span-4 md:col-span-2 2xl:col-span-1 text-center mt-0 2xl:mt-14">
+                    <h4 class="text-xl mb-8 lg:mb-14  circularmedium">Headless CSS</h4>
+                    <div class="flex justify-around">
+                        <div>
+                            <img src="./asset/img/tailwind.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Tailwind</h4>
+                        </div>
+                        <div>
+                            <img src="./asset/img/Bootstrap.svg" alt="" class=" h-12 w-12 mx-auto">
+                            <h4 class="text-lg mt-4">Bootstrap</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END TECHNOLOGIES -->
+    <section class="blog animate">
+        <div class="container mx-auto p-5 lg:px-24 py-16">
+            <h2 class="text-3xl lg:text-3xl circularmedium mb-8">Blog</h2>
+            <div class="lg:flex lg:justify-between ">
+                <h1 class="text-5xl lg:w-9/12 circularmedium mb-6 leading loose md:leading-normal"> We share tips, tutorial, and lessons from recent experiments on the web</h1>
+                <a href="#" class="underline text-lg ">View all</a>
+            </div>
+            <hr class="my-8 lg:mb-8 ">
+            <div class="grid grid-cols-10 gap-10">
+                <div class="col-span-10 lg:col-span-4">
+                    <img src="./asset/img/blog.jpeg" alt="">
+                </div>
+                <div class="col-span-10 lg:col-span-6 ">
+                    <h1 class="text-4xl circularmedium text-left mb-4">
+                        Terraform: Provision AWS Infrastructure
+                    </h1>
+                    <p>
+                        Terraform is an open-source infrastructure as code tool that enabled you to safely and predictably create, change, and improve infrastructure. Terraform generates an execution plan that describes the desired state. As Terraform code executes, it automatically determines what changes need to be done.
+                    </p>
+                    <div class="pt-8">
+                        <div class="profile flex items-center text-left">
+                            <div>
+                                <img src="./asset/img/faces2.jpg" alt="" class="rounded-full h-12 w-12 object-cover">
+                            </div>
+                            <div class="ml-2">
+                                <h1 class=" nimbusBold">Ahmad Muzakeer</h1>
+                                <h4>Jan 07, 2021 · 3 min read</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8 lg:mb-8 ">
+            <div class="grid grid-cols-10 gap-10">
+                <div class="col-span-10 lg:col-span-4">
+                    <img src="./asset/img/blog5.jpeg" alt="">
+                </div>
+                <div class="col-span-10 lg:col-span-6 ">
+                    <h1 class="text-4xl circularmedium text-left mb-4">
+                        Learn web development with these fantastic courses and for only a few bucks (2021 edition)
+                    </h1>
+                    <p>
+                        I often hear or talk to people who want to get into tech, who want to learn to code, but they are terrified of its idea. It is common for people to think that to be a programmer, a web developer, you have to be a computer nerd, genius, or have some kind of innate talent for computer science, and it couldn’t be any more wrong.
+                    </p>
+                    <div class="pt-8">
+                        <div class="profile flex items-center text-left">
+                            <div>
+                                <img src="./asset/img/faces4.jpg" alt="" class="rounded-full h-12 w-12 object-cover">
+                            </div>
+                            <div class="ml-2">
+                                <h1 class=" nimbusBold">Rowani Abraham </h1>
+                                <h4>Dec 19, 2020 · 4 min read</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8 lg:mb-8 ">
+            <div class="grid grid-cols-10 gap-10">
+                <div class="col-span-10 lg:col-span-4">
+                    <img src="./asset/img/blog2.jpeg" alt="" class="">
+                </div>
+                <div class="col-span-10 lg:col-span-6 ">
+                    <h1 class="text-4xl circularmedium text-left mb-4">
+                        Terraform: Provision AWS Infrastructure
+                    </h1>
+                    <p>
+                        Terraform is an open-source infrastructure as code tool that enabled you to safely and predictably create, change, and improve infrastructure. Terraform generates an execution plan that describes the desired state. As Terraform code executes, it automatically determines what changes need to be done.
+                    </p>
+                    <div class="pt-8">
+                        <div class="profile flex items-center text-left">
+                            <div>
+                                <img src="./asset/img/faces3.jpg" alt="" class="rounded-full h-12 w-12 object-cover">
+                            </div>
+                            <div class="ml-2">
+                                <h1 class=" nimbusBold">Ceryl Alexandra</h1>
+                                <h4>24 Dec, 2020 · 7 min read</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BLOG -->
+    <section class="bg-black animate">
+        <div class="container mx-auto p-5 lg:px-24 text-white">
+            <div class="flex justify-between ">
+                <div class="col-span-3  py-10">
+                    <h1 class="text-6xl nimbusBold ">
+                        Get an idea ? <br>
+                        Let's Chat
+                    </h1>
+                    <button class="border-2 border-white rounded-md py-4 px-10 mt-8 hover:bg-white hover:text-black">
+                        Tell us more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END IDEA -->
+    <footer class=" body-font animate">
+        <div class="  py-8">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class=" text-sm text-center sm:text-left">© 2020 Tailblocks —
+                    <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 ">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 ">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 ">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- JqUERY -->
+    <script src="https://unpkg.com/scrollreveal">
+    </script>
+    <script>
+    ScrollReveal().reveal('.animate', {
+        delay: 300,
+        reset: true,
+        useDelay: 'once'
+    });
+    ScrollReveal().reveal('.animat1', {
+        delay: 00,
+        reset: true,
+        useDelay: 'once'
+    });
+
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script>
+</body>
+
+</html>

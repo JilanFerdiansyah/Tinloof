@@ -1,0 +1,55 @@
+@font-face {
+    font-family: circular black;
+    font-weight: black;
+    src: url("./asset/fonts/CircularStd-Black.woff") format("woff");
+}
+@font-face {
+    font-family: circular bold;
+    font-weight: bold;
+    src: url("./asset/fonts/CircularStd-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: circular boldItalic;
+    font-weight: bold;
+    src: url("./asset/fonts/CircularStd-Bolditalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: circular book;
+    src: url("./asset/fonts/CircularStd-Book.woff") format("woff");
+}
+@font-face {
+    font-family: circular bookItalic;
+    font-weight: italic;
+    src: url("./asset/fonts/CircularStd-BookItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: circular medium;
+    src: url("./asset/fonts/CircularStd-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: circular mediumItalic;
+    font-weight: black;
+    src: url("./asset/fonts/CircularStd-Mediumitalic.woff") format("woff");
+}
+@font-face {
+    font-family: Nimbus Sans Bold;
+    font-weight: bold;
+    src: url("./asset/fonts/NimbusSanL-Bol.otf") format("opentype");
+}
+body{
+	font-family: circular book;	
+}
+
+.nimbusBold{
+    font-family: Nimbus Sans Bold;
+}
+
+.circularmedium{
+    font-family: circular medium;
+}
+
+.circularitalic{
+    font-family: circular bookItalic;
+}
